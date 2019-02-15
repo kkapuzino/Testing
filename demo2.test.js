@@ -5,5 +5,5 @@ test('annetaan vain yksi parametri, palautetaan luku itse', () => {
 
 test('parametrit puuttuvat, heitetään poikkeus', () => {
     expect(() => {
-        sum()}).toThrow('ei parametrejä');
+        sum()}).toThrow('ei parametreja');
 })
